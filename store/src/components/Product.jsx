@@ -40,7 +40,7 @@ const Product = ({ product }) => {
         <Link to={`/product/${id}`}>
           <h2 className="font-semibold mb-1 ">{title}</h2>
         </Link>
-        <div className="font-semibold">Kes. {parseFloat(price * 130).toFixed(2)}</div>
+        <div className="font-semibold">Kes. {parseFloat(price).toFixed(2)}</div>
       </div>
     </div>
   );

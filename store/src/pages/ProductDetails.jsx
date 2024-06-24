@@ -36,7 +36,7 @@ const ProductDetails = () => {
               {title}
             </h1>
             <div className="text-xl text-red-500 font-medium mb-6">
-              Kes. {parseFloat(price * 130).toFixed(2)}
+              Kes. {parseFloat(price).toFixed(2)}
             </div>
             <p className="mb-8">{description}</p>
             <button

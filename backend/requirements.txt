@@ -3,3 +3,5 @@ flask-jwt-extended
 flask-bcrypt
 python-dotenv
 flask-migrate
+flask-sqlalchemy
+flask-cors
